@@ -1,0 +1,240 @@
+
+html{
+    scroll-behavior: smooth;
+}
+
+.brand-name{
+    color: rgb(126, 125, 125) ;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 65px;
+}
+.sur-name{
+    color:  steelblue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 65px;
+}
+.navbar-brand{
+    float: right;
+}
+.wrapper{
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.wrapper h2{
+    color: rgb(126, 125, 125) ;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+}
+
+.name{
+    color: steelblue;
+}
+.name:before{
+    content: '';
+    animation: animate infinite 8s;
+}
+@keyframes animate{
+    0%{
+        content: 'Brand';
+    }
+    20%{
+        content: 'Company';
+    }
+    40%{
+        content: 'Services';
+    }
+    60%{
+        content: 'Product';
+    }
+    80%{
+        content: 'Shop';
+    }
+    100%{
+        content: 'Startup';
+    }
+}
+
+
+.ab{
+    color:  steelblue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+}
+.us{
+    color: rgb(126, 125, 125);
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    }
+
+    .second-content{
+        color: rgb(126, 125, 125);
+        text-shadow: 0 2px 0 rgba(0,0,0,0);
+        font-style: italic;
+        font-size: 18px;
+        }
+    .first-content{
+        color:  steelblue;
+        text-shadow: 0 2px 0 rgba(0,0,0,0); 
+        font-style: italic;
+        font-size: 18px;
+    }
+    
+    .a{
+        cursor: pointer;
+        position: relative;
+        color: steelblue;
+        height: 36px;
+        padding-top: 9px;
+        font-variant: small-caps;
+        font-weight: bold;
+        height: 50px;
+    }
+    .b{
+        cursor: pointer;
+        position: relative;
+        color: steelblue;
+        height: 36px;
+        padding-top: 9px;
+        font-variant: small-caps;
+        font-weight: bold;
+        height: 50px;
+    }
+    .a:hover{
+        background: steelblue;
+        color: white;
+    }
+    .b:hover{
+        background: steelblue;
+        color: white;
+    }
+
+    .freelancers{
+        color: rgb(126, 125, 125);
+        font-style: italic;
+        font:bold;
+        width: 90%;
+    }
+
+    .affiliate{
+        color: rgb(126, 125, 125);
+        font-style: italic;
+        font:bold;
+        width: 90%;
+    }
+
+    .serve{
+        -webkit-column-gap: 40px; /* Chrome, Safari, Opera */
+    -moz-column-gap: 40px; /* Firefox */
+  column-gap: 40px;
+    }    
+
+
+
+    
+      .c:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+    
+      .d:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+      .f:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+      .g:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+      .h:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+      .i:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+      .j:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+      }
+      .k:hover{
+        transition: 0.5s;
+        transform: scale(1.2)
+    }
+
+
+
+    .join{
+        color:  steelblue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    }
+    .community{
+        color: steelblue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    }
+    .our{
+        color: rgb(126, 125, 125);
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    }
+
+    .image{
+        cursor: pointer;
+    }
+    .C{
+        color: steelblue;
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    }
+    .U{
+        color: rgb(126, 125, 125);
+    text-shadow: 0 2px 0 rgba(0,0,0,0.5);
+    font-size: 50px;
+    }
+    .text{
+        font-weight: bold;
+        opacity: 0;
+        color: gray;
+        transition: 0.5s;
+        transform: translateY(20px);
+    }
+
+    div div:hover .bi{
+        transform: translateY(-20px)scale(.6);
+        transition: 0.5s;
+        
+    }
+    div div:hover .text{
+        transform: translateY(-20px);
+        opacity: 1;
+    }
+
+    .facebook:hover{
+        transition: 0.6s;
+        transform: scale(1.1);
+    }
+    .instagram:hover{
+        transition: 0.6s;
+        transform: scale(1.1);
+    }
+    .telegram:hover{
+        transition: 0.6s;
+        transform: scale(1.1);
+    }
+    .linkedin:hover{
+        transition: 0.6s;
+        transform: scale(1.1);
+    }
+
+    .last{
+        background :snow;
+    }
+    
+    .header{
+        width: 100%;
+    }
