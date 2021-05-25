@@ -238,3 +238,6 @@ html{
     .header{
         width: 100%;
     }
+.container{
+    width:"100%"
+}
